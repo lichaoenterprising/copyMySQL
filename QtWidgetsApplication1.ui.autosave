@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtWidgetsApplication1Class</class>
+ <widget class="QMainWindow" name="QtWidgetsApplication1Class">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtWidgetsApplication1</string>
+  </property>
+  <widget class="QWidget" name="centralWidgetlc">
+   <layout class="QVBoxLayout" name="verticalLayout_5">
+    <item>
+     <widget class="QGroupBox" name="groupBox_openpathlc">
+      <property name="title">
+       <string>打开路径</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayoutlc">
+         <item>
+          <widget class="QLineEdit" name="lineEdit_inputopenpathlc"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_openpathlc">
+           <property name="text">
+            <string>打开路径</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_2_newdblc">
+      <property name="title">
+       <string>新建数据库</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2lc">
+         <item>
+          <widget class="QLabel" name="label_dbpwdlc">
+           <property name="text">
+            <string>数据库pwd</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2_dbnewnamelc">
+           <property name="text">
+            <string>new数据库name</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_2_inputnewdb"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_2_newdblc">
+           <property name="text">
+            <string>新建</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_3_copydblc">
+      <property name="title">
+       <string>拷贝数据库</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3lc">
+         <item>
+          <widget class="QLabel" name="label_dbsrc">
+           <property name="text">
+            <string>数据库src</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_3inputdbsrclc"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2_dbsrcpwdlc">
+           <property name="text">
+            <string>src数据库pwd</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_4_inputdbsrcpwdlc"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3_dbdst">
+           <property name="text">
+            <string>数据库dst</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_5_inputdbdstlc"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_4_dbdstpwdlc">
+           <property name="text">
+            <string>dst数据库pwd</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_6_inputdbdstpwdlc"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox_4querenlc">
+      <property name="title">
+       <string>确认拷贝</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4lc">
+         <item>
+          <widget class="QPushButton" name="pushButton_3_truelc">
+           <property name="text">
+            <string>确认</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="QtWidgetsApplication1.qrc"/>
+ </resources>
+ <connections/>
+</ui>
